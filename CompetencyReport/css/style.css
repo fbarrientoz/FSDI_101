@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    color:black;
+    text-transform: uppercase;   
+}
+
+h4, h5, h6
+{
+    background-color: black;
+    color: yellow;
+    width: 300px;
+}
+
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d13bd;
+}
+
+#second-p{
+    background-color: #dedede;
+    color:black;
+    font-size: 12px;
+}
+
+.btn{
+    background-color: rgb(30, 56, 202);
+    color:white;
+    padding: 5px 5px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(30, 37, 131);
+    padding: 5px 5px;
+}
+/**Utilities**/
+.center {
+    text-align: center;
+}
+
+.container-80{
+    width: 80%;
+}
+
+/**List*/
+
+ul.test-ul{
+    list-style-type: none;
+    background-color: aqua;
+}
+
+ul.test-ul li{
+    display: inline-block;
+    background-color: blue;
+    margin: 1px;
+    padding: 5px;
+    color:white;
+    border: 5px solid #dedede;
+    border-width: 1px;
+}
+
+ul.test-ul li:hover{
+    background-color: rgb(90, 9, 6);
+    font-size: 20px;
+
+}
+nav{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:5px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color:rgb(212, 224, 33);
+
+}
